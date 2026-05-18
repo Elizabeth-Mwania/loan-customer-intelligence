@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+logs/
+data/source/*.csv
+data/bronze/*.csv
+data/silver/*.csv
+data/gold/*.csv
+data/quarantine/*.csv
+data/stream/*.jsonl
+dbt/target/
+dbt/dbt_packages/
