@@ -1,6 +1,6 @@
 # Loan & Customer Intelligence Platform
 
-End-to-end local implementation scaffold for enterprise loan and customer analytics. The project simulates source systems, runs bronze/silver/gold ETL, creates analytical marts, applies data quality checks, and simulates real-time fraud alerts.
+An implementation for enterprise loan and customer analytics. The project simulates source systems, runs bronze/silver/gold ETL, creates analytical marts, applies data quality checks, and simulates real-time fraud alerts.
 
 ## What Is Included
 
