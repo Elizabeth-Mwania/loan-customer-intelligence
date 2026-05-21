@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 venv/
 logs/
+sql/
 data/source/*.csv
 data/bronze/*.csv
 data/silver/*.csv
