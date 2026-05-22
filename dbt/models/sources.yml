@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: "{{ target.project }}"
+    schema: loan_intelligence_raw
+    tables:
+      - name: customers
+      - name: loans
+      - name: repayments
+      - name: mobile_transactions
+      - name: collections
+      - name: fraud_alerts
+      - name: products
+      - name: branches

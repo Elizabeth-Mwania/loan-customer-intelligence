@@ -1,0 +1,22 @@
+name: loan_customer_intelligence
+version: 1.0.0
+config-version: 2
+
+profile: loan_customer_intelligence
+
+model-paths: ["models"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+models:
+  loan_customer_intelligence:
+    bronze:
+      +materialized: view
+      +schema: bronze
+    silver:
+      +materialized: view
+      +schema: silver
+    gold:
+      +materialized: table
+      +schema: gold
